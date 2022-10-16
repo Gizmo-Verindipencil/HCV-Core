@@ -1,8 +1,8 @@
 {
     "name": "hcv-core",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "This is a collection of classes about handling color representations.",
-    "main": "src/index.js",
+    "main": "dist/hcv-core.min.js",
     "scripts": {
         "build": "npm run clean && npm run build:dev && npm run build:prd",
         "build:dev": "webpack src/index.js dist/hcv-core.js --config tool/webpack.config.dev.js",
