@@ -1,4 +1,5 @@
 import { Color } from "../color";
+import { ColorExpressionType } from "../color-expression-type";
 import { Hex3Creator } from "./hex3-creator";
 import { Hex4Creator } from "./hex4-creator";
 import { Hex6Creator } from "./hex6-creator";
@@ -15,7 +16,6 @@ import { RgbaPercentCreator } from "./rgba-percent-creator";
 import { SpaceDelimitedHslAlphaCreator } from "./space-delimited-hsl-alpha-creator";
 import { SpaceDelimitedHslCreator } from "./space-delimited-hsl-creator";
 import { WebColorCreator } from "./web-color-creator";
-import { ColorExpressionType } from "../color-expression-type";
 
 /**
  * RGBA表現の作成処理を提供します。
@@ -215,3 +215,4 @@ class ColorCreator {
 }
 
 export { ColorCreator };
+

@@ -13,8 +13,8 @@ import { RgbPercentAlphaDetector } from "./rgb-percent-alpha-detector";
 import { RgbPercentDetector } from "./rgb-percent-detector";
 import { RgbaDetector } from "./rgba-detector";
 import { RgbaPercentDetector } from "./rgba-percent-detector";
-import { SpaceDelimitedHslDetector } from "./space-delimited-hsl-detector";
 import { SpaceDelimitedHslAlphaDetector } from "./space-delimited-hsl-alpha-detector";
+import { SpaceDelimitedHslDetector } from "./space-delimited-hsl-detector";
 import { WebColorDetector } from "./web-color-detector";
 
 /**
