@@ -1,31 +1,22 @@
-# Type (Object)
+# HcvCore.type (Object)
 
-## Summary
-`HcvCore.type` is an object that provides a set of predefined constants for different color formats that can be handled by `HcvCore`. Each constant represents a specific color format.
+## Overview
+The `HcvCore.type` object, as defined in `src/index.js` and implemented in `src/color-expression-type.js`, is a utility object that provides a set of predefined constants for different color formats. Each constant represents a specific color format that can be handled by `HcvCore`.
 
-## Property
-|type|format|delimiter|alpha|example|
-|---|---|:---:|:---:|---|
-|hex3|hex|-|no|`#000` <br> `#fff`|
-|hex4|hex|-|yes|`#0000` <br> `#ffff`|
-|hex6|hex|-|no|`#000000` <br> `#ffffff`|
-|hex8|hex|-|yes|`#00000000` <br> `#ffffffff`|
-|hsl-alpha|hsl|`,`|yes|`hsl(0, 0%, 0%, 100%)` <br> `hsl(0, 0%, 100%, 1)`|
-|hsl|hsl|`,`|no|`hsl(0, 0%, 0%)` <br> `hsl(0, 0%, 100%)`|
-|hsla|hsla|`,`|yes|`hsla(0, 0%, 0%, 100%)` <br> `hsla(0, 0%, 100%, 1)`|
-|rgb-alpha|rgb|`,`|yes|`rgb(0, 0, 0, 100%)` <br> `rgb(255, 255, 255, 1)`|
-|rgb|rgb|`,`|no|`rgb(0, 0, 0)` <br> `rgb(255, 255, 255)`|
-|rgb-percent-alpha|rgb|`,`|yes|`rgb(0%, 0%, 0%)` <br> `rgb(100%, 100%, 100%)`|
-|rgba|rgba|`,`|yes|`rgba(0, 0, 0, 100%)` <br> `rgba(255, 255, 255, 1)`|
-|rgba-percent|rgba|`,`|yes|`rgba(0%, 0%, 0%, 100%)` <br> `rgba(100%, 100%, 100%, 1)`|
-|space-delimited-hsl|hsl|` `|no|`hsl(0 0% 0%)` <br> `hsl(0 0% 100%)`|
-|space-delimited-hsl-alpha|hsl|` `|yes|`hsl(0 0% 0% 100%)` <br> `hsl(0 0% 100% 1)`|
-|web-color|-|-|no|`white` <br> `black`|
-
-## Usage
-```javascript
-    // Accessing a color format constant
-    const colorFormat = HcvCore.type.hex3;
-    console.log(colorFormat);
-    // Output: hex3
-```
+## Properties
+Each `HcvCore.type` instance has the following properties:
+* `hex3`: Represents a 3-digit hexadecimal color format. Example: `#000`, `#fff`.
+* `hex4`: Represents a 4-digit hexadecimal color format with alpha value. Example: `#0000`, `#ffff`.
+* `hex6`: Represents a 6-digit hexadecimal color format. Example: `#000000`, `#ffffff`.
+* `hex8`: Represents an 8-digit hexadecimal color format with alpha value. Example: `#00000000`, `#ffffffff`.
+* `hslAlpha`: Represents an HSL color format with alpha value. Example: `hsl(0, 0%, 0%, 100%)`, `hsl(0, 0%, 100%, 1)`.
+* `hsl`: Represents an HSL color format. Example: `hsl(0, 0%, 0%)`, `hsl(0, 0%, 100%)`.
+* `hsla`: Represents an HSLA color format. Example: `hsla(0, 0%, 0%, 100%)`, `hsla(0, 0%, 100%, 1)`.
+* `rgbAlpha`: Represents an RGB color format with alpha value. Example: `rgb(0, 0, 0, 100%)`, `rgb(255, 255, 255, 1)`.
+* `rgb`: Represents an RGB color format. Example: `rgb(0, 0, 0)`, `rgb(255, 255, 255)`.
+* `rgbPercentAlpha`: Represents an RGB color format with alpha value in percentage. Example: `rgb(0%, 0%, 0%)`, `rgb(100%, 100%, 100%)`.
+* `rgba`: Represents an RGBA color format. Example: `rgba(0, 0, 0, 100%)`, `rgba(255, 255, 255, 1)`.
+* `rgbaPercent`: Represents an RGBA color format in percentage. Example: `rgba(0%, 0%, 0%, 100%)`, `rgba(100%, 100%, 100%, 1)`.
+* `spaceDelimitedHsl`: Represents a space delimited HSL color format. Example: `hsl(0 0% 0%)`, `hsl(0 0% 100%)`.
+* `spaceDelimitedHslAlpha`: Represents a space delimited HSL color format with alpha value. Example: `hsl(0 0% 0% 100%)`, `hsl(0 0% 100% 1)`.
+* `webColor`: Represents a web color format. Example: `white`, `black`.

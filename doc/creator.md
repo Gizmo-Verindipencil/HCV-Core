@@ -1,9 +1,9 @@
-# Creator (Object)
+# HcvCore.creator (Object)
 
 ## Overview
 The `HcvCore.creator` object, as defined in `src/index.js` and implemented in `src/creator/color-creator.js`, is a utility object that provides methods for creating various color representations. It supports a wide range of color formats including hexadecimal, RGB, HSL, and their alpha variants.
 
-## Usage
+## How to use
 ```javascript
     // Create a new color instance with red, green, and blue values
     const color = new HcvCore.color(0, 0, 0);
