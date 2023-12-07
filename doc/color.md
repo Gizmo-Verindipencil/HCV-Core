@@ -7,7 +7,7 @@ The `HcvCore.color` class, as defined in `src/index.js` and implemented in `src/
 Here's an example of how to use the `HcvCore.color` class:
 ```javascript
     // Create a new color instance with red, green, blue, and alpha values
-    const myColor = new HcvCore.color(1, 2, 3, 4);
+    const color = new HcvCore.color(1, 2, 3, 4);
     // Output: { r: 1, g: 2, b: 3, a: 4 }
 ```
 

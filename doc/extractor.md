@@ -8,7 +8,6 @@ Here's an example of how to use the `HcvCore.extractor` class:
 ```javascript
     // Extract color information from a hexadecimal color representation
     const color = HcvCore.extractor.extract("#000");
-    console.log(color);
     // Output: { r: 0, g: 0, b: 0, a: null }
 ```
 
