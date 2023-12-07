@@ -1,7 +1,7 @@
 # Type (Object)
 
 ## Summary
-`HcvCore.color` is a object for color format that can be handled by `HcvCore`.
+`HcvCore.type` is an object that provides a set of predefined constants for different color formats that can be handled by `HcvCore`. Each constant represents a specific color format.
 
 ## Property
 |type|format|delimiter|alpha|example|
@@ -24,6 +24,8 @@
 
 ## Usage
 ```javascript
-    HcvCore.type.hex3;
-    // hex3
+    // Accessing a color format constant
+    const colorFormat = HcvCore.type.hex3;
+    console.log(colorFormat);
+    // Output: hex3
 ```
