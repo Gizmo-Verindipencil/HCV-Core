@@ -1,6 +1,6 @@
 # HCV-Core
 
-<img src="img/logo.png" width="300px">
+<img src="img/title.png" width="300px">
 
 ## Summary
 HCV-Core is a library provides creating, detecting, extracting for color representations. 
